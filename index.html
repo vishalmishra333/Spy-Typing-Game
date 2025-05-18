@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spy Typing Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Spy Typing Mission</h1>
+    <div class="mission-box">
+      <p>Decrypt this:</p>
+      <div id="encryptedText" class="encrypted"></div>
+    </div>
+
+    <textarea id="userInput" placeholder="Type decrypted text here..."></textarea>
+    <div class="info">
+      <p>Time Left: <span id="time">30</span>s</p>
+      <p>Level: <span id="level">1</span></p>
+      <p>Score: <span id="score">0</span></p>
+    </div>
+
+    <button id="startBtn">Start Mission</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
